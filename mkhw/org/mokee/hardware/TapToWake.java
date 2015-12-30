@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 The CyanogenMod Project
+ * Copyright (C) 2014 The Mokee Opensource Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.cyanogenmod.hardware;
+package org.mokee.hardware;
 
 import android.os.SystemProperties;
 
-import org.cyanogenmod.hardware.util.FileUtils;
+import org.mokee.hardware.util.FileUtils;
 
 /**
  * Tap (usually double-tap) to wake. This *should always* be supported by
@@ -30,7 +30,7 @@ public class TapToWake {
     private static String CONTROL_PATH = "/sys/devices/mx_tsp/gesture_hex";
 
     // XXX: use a backup-able store instead of this!
-    private static String STORE_PROP = "persist.cmhw.mz_taptowake";
+    private static String STORE_PROP = "persist.mkhw.mz_taptowake";
 
     /**
      * Whether device supports it
