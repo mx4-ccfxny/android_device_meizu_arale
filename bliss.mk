@@ -4,14 +4,14 @@
 PRODUCT_RELEASE_NAME := MX4
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/sm/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/meizu/arale/device_arale.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := arale
-PRODUCT_NAME := sm_arale
+PRODUCT_NAME := bliss_arale
 PRODUCT_BRAND := Meizu
 PRODUCT_MODEL := MX4
 PRODUCT_MANUFACTURER := Meizu
