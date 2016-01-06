@@ -9,6 +9,9 @@ TARGET_NO_BOOTLOADER := true
 
 TARGET_LDPRELOAD += libxlog.so
 
+#sudamod
+USE_NEW_ROM_STYLE := true
+
 # Architecture
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
