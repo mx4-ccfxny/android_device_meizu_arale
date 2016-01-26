@@ -52,6 +52,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml \
     $(LOCAL_PATH)/configs/audio_policy.conf:system/etc/audio_policy.conf
 
+#bootanimation
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+
 # Wifi
 PRODUCT_PACKAGES += \
     libwpa_client \
