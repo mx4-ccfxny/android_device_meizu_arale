@@ -11,7 +11,7 @@ $(call inherit-product, device/meizu/arale/device_arale.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := arale
-PRODUCT_NAME := cm_arale
+PRODUCT_NAME := pac_arale
 PRODUCT_BRAND := Meizu
 PRODUCT_MODEL := MX4
 PRODUCT_MANUFACTURER := Meizu
