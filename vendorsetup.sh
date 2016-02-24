@@ -15,8 +15,8 @@
 #
 
 for flavor in eng userdebug user; do
-    add_lunch_combo "full_arale-${flavor}"
-    add_lunch_combo "cm_arale-${flavor}"
+#    add_lunch_combo "full_arale-${flavor}"
+    add_lunch_combo "carbon_arale-${flavor}"
 done
 
 
