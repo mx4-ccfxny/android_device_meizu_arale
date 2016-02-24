@@ -5,6 +5,6 @@ PRODUCT_NAME := full_arale
 PRODUCT_DEVICE := arale
 
 PRODUCT_COPY_FILES += \
-    device/meizu/mx4/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+    device/meizu/arale/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
 # vim:set ai et ts=4 sw=4 sts=4 fenc=utf-8:
