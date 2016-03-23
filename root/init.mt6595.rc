@@ -935,14 +935,14 @@ service dhcpcd_p2p /system/bin/dhcpcd -BK -dd
 
 service iprenew_wlan0 /system/bin/dhcpcd -n
     class main
-	user dhcp
+	user root
 	group net_admin net_raw
     disabled
     oneshot
 
 service iprenew_p2p /system/bin/dhcpcd -n
     class main
-	user dhcp
+	user root
 	group net_admin net_raw
     disabled
     oneshot
