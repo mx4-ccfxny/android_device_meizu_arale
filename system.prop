@@ -76,6 +76,7 @@ ro.telephony.ril.config=fakeiccid
 ro.mediatek.gemini_support=false
 ro.gemini.smart_sim_switch=false
 ro.sim_refresh_reset_by_modem=1
+ro.mtk_external_sim_support=1
 ro.sim_me_lock_mode=0
 ro.mtk_enable_md1=1
 ro.mtk_fd_support=1
