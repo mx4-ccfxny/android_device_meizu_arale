@@ -106,7 +106,7 @@
 #define  GNSS_OP  "AT%GNSS"
 #define  GPS_AT_ACK_SIZE        60
 
-#define  GPS_DEBUG  1
+#define  GPS_DEBUG  0
 #define  NEMA_DEBUG 0   /*the flag works if GPS_DEBUG is defined*/
 #if GPS_DEBUG
 #define  TRC(f)       ALOGD("%s", __func__)
@@ -115,6 +115,9 @@
 #define DBG(f, ...) ALOGD("%s: line = %d" f, __func__, __LINE__, ##__VA_ARGS__)
 #define VER(f, ...) ((void)0)    // ((void)0)   //
 #else
+#  define TRC(...)    ((void)0)
+#  define ERR(...)    ((void)0)
+#  define WAN(...)    ((void)0)
 #  define DBG(...)    ((void)0)
 #  define VER(...)    ((void)0)
 #endif
