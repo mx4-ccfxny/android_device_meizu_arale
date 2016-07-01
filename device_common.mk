@@ -67,9 +67,9 @@ PRODUCT_PACKAGES += \
     Snap \
     libnvramagentclient \
 
-# Use CM Gello browser
-PRODUCT_PACKAGES += \
-    Gello \
+# Use CM Gello browser---suda-disable-because-not have arm folder
+#PRODUCT_PACKAGES += \
+#    Gello \
 
 # Audio
 PRODUCT_PACKAGES += \
